@@ -6,6 +6,7 @@ class Image
 
   def output_image
     @pixels.each do |pixels|
+      # transform array into string with no specified separator
       puts pixels.join
     end
   end
